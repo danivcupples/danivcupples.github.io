@@ -1,0 +1,43 @@
+body {
+  font-family: 'Amiko', sans-serif;
+  color: #0e1e31;
+  background-color: #f2f1ec;
+}
+header .jumbotron {
+  background: #717a7d url('coffee1.jpg');
+  color: #f2f1ec;
+  padding: 40px;
+  font-family: 'Sacramento', cursive;
+  font-size: 200%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #5680ad;
+}
+article {
+  padding: 20px 50px;
+  line-height: 150%;
+}
+article h2 {
+  font-family: 'Cormorant SC', serif;
+  color: #2f455d;
+  letter-spacing: 2px;
+}
+#about {
+  /*background-image: url('coffee.jpg');*/
+}
+
+#portfolio {
+  /*background-color: #bbbbb3;*/
+}
+footer {
+  background-color: #717a7d;
+  padding: 40px;
+  color: #f2f1ec;
+  text-align: center;
+  font-family: 'Cormorant SC', serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+}

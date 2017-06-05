@@ -2,16 +2,21 @@
 <html>
 <head>
   <title>Dani V Cupples</title>
-  <meta charset="utf-8">
   <meta name="keywords" content="Dani Cupples, Dani V Cupples, Dani Volker, web developer, webdev, front end developer">
   <meta name="description" content="Dani V Cupples is a web developer">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial scale=1.0">
+  <link rel="stylesheet" type="text/css" href="DVC.css">
+  <link href="https://fonts.googleapis.com/css?family=Amiko|Cormorant+SC|Sacramento" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
 <header>
+  <div class="jumbotron">
   <h1>Dani V Cupples</h1>
   <!--Navbar should include links to Home About Contact Portfolio.
   Links should refer to scrollable page locations.-->
+  </div>
 </header>
 <article id="about">
   <h2>About Me</h2>
@@ -27,12 +32,12 @@
   <h2>Contact Me</h2>
     <p>If you're interested in my work or just want to reach out, please use the contact form below.</p>
     <form>
-      Name: <input type="text" name="name" placeholder="First and last name"><br>
-      Email Address: <input type="email" name="email" placeholder="you@yourdomain.com" required><br>
-      Phone Number: <input type="tel" name="phone" placeholder="555-867-5309"><br>
-      Best Contact Method: <input type="radio" name="contact-method" value="email" checked> Email
-        <input type="radio" name="contact-method" value="phone"> Phone <br>
-      <input type="submit">
+      <p>Name: <input type="text" name="name" placeholder="First and last name">
+      Email Address: <input type="email" name="email" placeholder="you@yourdomain.com" required>
+      Phone Number: <input type="tel" name="phone" placeholder="555-867-5309"></p>
+      <p>Best Contact Method: <input type="radio" name="contact-method" value="email" checked> Email
+        <input type="radio" name="contact-method" value="phone"> Phone
+      <input type="submit"></p>
     </form>
 </article>
 <article id="portfolio">
@@ -41,7 +46,7 @@
     <!--carousel of screenshots that link to static pages with my work-->
 </article>
   <footer>
-    <p>Follow me</p>
+    <h3>Follow me</h3>
     <!--images w/links for twitter, github, freecodecamp, linkedIn-->
   </footer>
 
