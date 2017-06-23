@@ -2,16 +2,28 @@ body {
   font-family: 'Amiko', sans-serif;
   color: #0e1e31;
   background-color: #f2f1ec;
+  padding-top: 50px;
+}
+.navbar-default {
+  background: #f2f1ec;
+  color: #0e1e31;
+  font-family: 'Cormorant SC', serif;
+  /*font-weight: bold;
+  font-size: 1.5em;*/
+  letter-spacing: 2px;
+  padding: 0px 50px;
+  margin: 0px 10px;
+  border: none;
+  border-radius: 5px;
 }
 header .jumbotron {
-  background: #717a7d url('coffee1.jpg');
+  background: #717a7d;
   color: #f2f1ec;
   padding: 40px;
   font-family: 'Sacramento', cursive;
   font-size: 200%;
   text-align: center;
 }
-
 a {
   text-decoration: none;
   color: #5680ad;
@@ -25,12 +37,23 @@ article h2 {
   color: #2f455d;
   letter-spacing: 2px;
 }
+#contact {
+  margin: 3% 0%;
+}
+form input {
+  border-radius: 3px;
+  padding: 5px;
+}
 #about {
   /*background-image: url('coffee.jpg');*/
 }
 
 #portfolio {
   /*background-color: #bbbbb3;*/
+}
+.carousel {
+  width: 70%;
+  float: none;
 }
 footer {
   background-color: #717a7d;

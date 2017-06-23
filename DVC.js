@@ -1,6 +1,6 @@
 $(document).ready(function(){
   //provide confirmation alert when submitting form
-  $("#contact").submit(function(){
+  $("#contact-form").submit(function(){
     alert("Thank you for contacting me!");
   });
 
