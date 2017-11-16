@@ -89,3 +89,8 @@ footer {
   letter-spacing: 2px;
   border-radius: 5px;
 }
+
+.fa {
+  color: #f2f1ec;
+  font-size: 1.3em;
+}
