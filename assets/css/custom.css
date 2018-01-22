@@ -39,6 +39,10 @@ a {
   color: #5680ad;
 }
 
+a.no-style {
+  text-decoration: none;
+  color: #2f455d;
+}
 
 article {
   padding: 20px 50px;
