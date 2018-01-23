@@ -6,7 +6,6 @@
   <meta name="description" content="Dani V Cupples is a web developer">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial scale=1.0">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
   <script src="https://use.fontawesome.com/6fbf78ba48.js"></script>
 </head>
@@ -14,7 +13,7 @@
     <div class="page-container">
       <div class="one">
         <h1>Dani V Cupples</h1>
-        <img src="assets/images/dvc.jpg" alt="Dani V Cupples" class="img-responsive img-circle dvc">
+        <img src="assets/images/dvc.jpg" alt="Dani V Cupples" class="dvc">
         <!--images w/links for twitter, github, freecodecamp, linkedIn-->
         <div class="follow">
           <h2>Contact Me</h2>
@@ -38,46 +37,27 @@
 
         </article>
         <article id="portfolio">
-              <h2>Portfolio</h2>
-                <p>For a full-page gallery, please click <a href="gallery.html">here</a>.</p>
-            <!--carousel (when there are more than three) of screenshots that link to static pages with my work-->
-            <div class="carousel slide" data-ride="carousel" id="myCarousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-              </ol>
+          <h2>Portfolio</h2>
+          <p>Click images to see their respective pages. For a full-page gallery and descriptions, please click <a href="gallery.html">here</a>.</p>
 
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-                <div class="item active">
-                  <a href="patatap/patatap.html" target="_blank"><img src="assets/images/patatap.png" alt="patatap clone"></a>
-                </div>
+          <!-- Wrapper for gallery -->
+          <div class="portfolio-container">
+            <div class="item">
+              <a href="patatap/patatap.html" target="_blank"><img src="assets/images/patatap.png" alt="patatap clone"></a>
+            </div>
 
-                <div class="item ">
-                  <a href="https://codepen.io/danivcupples/full/BZpYjZ/" target="_blank"><img src="assets/images/localweather.png" alt="local weather"></a>
-                </div>
+            <div class="item">
+              <a href="https://codepen.io/danivcupples/full/BZpYjZ/" target="_blank"><img src="assets/images/localweather.png" alt="local weather"></a>
+            </div>
+          </div>
 
-                <div class="item">
-                  <a href="https://codepen.io/danivcupples/full/EXVygB/" target="_blank"><img src="assets/images/randomquote.png" alt="random quote generator"></a>
-                </div>
+          <div class="portfolio-container">
+            <div class="item">
+              <a href="https://codepen.io/danivcupples/full/EXVygB/" target="_blank"><img src="assets/images/randomquote.png" alt="random quote generator"></a>
+            </div>
 
-                <div class="item">
-                  <a href="https://codepen.io/danivcupples/full/XReXwG/" target="_blank"><img src="assets/images/tolstoytribute.png" alt="tribute page to Leo Tolstoy"></a>
-                </div>
-              </div>
-
-              <!-- Left and rigth controls -->
-              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-              </a>
+            <div class="item">
+              <a href="https://codepen.io/danivcupples/full/XReXwG/" target="_blank"><img src="assets/images/tolstoytribute.png" alt="tribute page to Leo Tolstoy"></a>
             </div>
           </div>
         </article>
@@ -85,7 +65,6 @@
     </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="assets/js/scripts.js"></script>
 </body>
 </html>
