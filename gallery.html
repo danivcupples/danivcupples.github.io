@@ -11,65 +11,61 @@
   </head>
   <body>
 
-    <div class="container-fluid">
-
-      <header>
-        <div class="jumbotron">
-          <!--Navbar should include links to Home About Contact Portfolio.
-          Links should refer to scrollable page locations.-->
-          <nav class="navbar navbar-default navbar-fixed-top">
-            <ul class="nav navbar-nav">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="index.html#portfolio">Portfolio</a></li>
-              <li><a href="index.html#contact">Contact Me</a></li>
-              <li><a href="index.html#about">About</a></li>
-              <li class="active"><a href="gallery.html">Gallery</a></li>
-            </ul>
-          </nav>
-        <h1>Dani V Cupples</h1>
-        </div>
-      </header>
-
-      <article class="">
-        <h2>My Projects</h2>
-          <p>Scroll to see my collection of projects. They are organized in reverse chronological order, so you get to see the latest and greatest right off the bat!</p>
-          <p>If anything interests you, please <a href="index.html#contact">contact me</a>!</p>
-      </article>
-
-      <div class="gallery-item">
-        <a href="https://codepen.io/danivcupples/full/BZpYjZ/" target="_blank"><img src="assets/images/localweather.png" alt="weather app" class="img-responsive"></a>
-
-        <blockquote>
-          <p>A functional JS-enabled local weather app built using the Weather Underground API. If location services are enabled, it will pull the user's location and generate a weather report, complete with a dynamic background image based on common weather.</p>
-        </blockquote>
-      </div>
-
-      <div class="gallery-item">
-        <a href="https://codepen.io/danivcupples/full/EXVygB/" target="_blank"> <img src="assets/images/randomquote.png" alt="random quote generator" class="img-responsive"> </a>
-
-        <blockquote>
-          <p>A functional JS-enabled random quote generator. Built on the forismatic API, this generator displays a random quote and allows the user to tweet the quote directly from the app.</p>
-        </blockquote>
-      </div>
-
-      <div class="gallery-item">
-        <a href="https://codepen.io/danivcupples/full/XReXwG/" target="_blank"> <img src="assets/images/tolstoytribute.png" alt="random quote generator" class="img-responsive"> </a>
-
-        <blockquote>
-          <p>This static page is a brief tribute to Russian author Leo Tolstoy. Tolstoy has long been one of my favorites for his deep and nuanced insight into the human experience.</p>
-        </blockquote>
-      </div>
-
-      <footer>
-        <h3>Follow me</h3>
+    <div class="page-container">
+      <div class="one">
+        <h1><a href="index.html" class="no-style">Dani V Cupples</h1>
+        <img src="assets/images/dvc.jpg" alt="Dani V Cupples" class="dvc"></a>
         <!--images w/links for twitter, github, freecodecamp, linkedIn-->
-        <a href="https://github.com/danivcupples"><i class="fa fa-github fa-4" aria-hidden="true"></i></a>
-        <a href="https://twitter.com/danivcupples"><i class="fa fa-twitter fa-4" aria-hidden="true"></i></a>
-        <a href="https://www.freecodecamp.org/danivcupples"><i class="fa fa-free-code-camp fa-3" aria-hidden="true"></i></a>
-        <a href="www.linkedin.com/in/danivcupples"><i class="fa fa-linkedin fa-3" aria-hidden="true"></i></a>
-      </footer>
+        <div class="follow">
+          <h2>Contact Me</h2>
+          <p>danivcupples (at) gmail (dot) com</p>
+          <p><a href="https://github.com/danivcupples"><i class="fa fa-github fa-3" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/danivcupples"><i class="fa fa-twitter fa-3" aria-hidden="true"></i></a>
+          <a href="https://www.freecodecamp.org/danivcupples"><i class="fa fa-free-code-camp fa-3" aria-hidden="true"></i></a>
+          <a href="www.linkedin.com/in/danivcupples"><i class="fa fa-linkedin fa-3" aria-hidden="true"></i></a></p>
+        </div>
+      </div>
 
+      <div class="two">
+        <article class="">
+          <h2>My Projects</h2>
+            <p>Scroll to see my collection of projects. They are organized in reverse chronological order, so you get to see the latest and greatest right off the bat!</p>
+            <p>If anything interests you, pleasecontact me at the address to the left!</p>
+        </article>
+        <div class="gallery-item">
+          <a href="patatap/patatap.html" target="_blank"><img src="assets/images/patatap.png" alt="patatap clone" class="img-responsive"></a>
+
+          <blockquote>
+            <p>A functional, JS-enabled clone of the game patatap. It uses the paper.js and howler.js libraries to enable shrinking colored circles and sounds on a keypress. </p>
+          </blockquote>
+        </div>
+
+        <div class="gallery-item">
+          <a href="https://codepen.io/danivcupples/full/BZpYjZ/" target="_blank"><img src="assets/images/localweather.png" alt="weather app" class="img-responsive"></a>
+
+          <blockquote>
+            <p>A functional, JS-enabled local weather app built using the Weather Underground API. If location services are enabled, it will pull the user's location and generate a weather report, complete with a dynamic background image based on common weather.</p>
+          </blockquote>
+        </div>
+
+        <div class="gallery-item">
+          <a href="https://codepen.io/danivcupples/full/EXVygB/" target="_blank"> <img src="assets/images/randomquote.png" alt="random quote generator" class="img-responsive"> </a>
+
+          <blockquote>
+            <p>A functional JS-enabled random quote generator. Built on the forismatic API, this generator displays a random quote and allows the user to tweet the quote directly from the app.</p>
+          </blockquote>
+        </div>
+
+        <div class="gallery-item">
+          <a href="https://codepen.io/danivcupples/full/XReXwG/" target="_blank"> <img src="assets/images/tolstoytribute.png" alt="random quote generator" class="img-responsive"> </a>
+
+          <blockquote>
+            <p>This static page is a brief tribute to Russian author Leo Tolstoy. Tolstoy has long been one of my favorites for his deep and nuanced insight into the human experience.</p>
+          </blockquote>
+        </div>
+      </div>
     </div>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
